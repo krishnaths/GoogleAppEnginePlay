@@ -1,0 +1,10 @@
+application: alluniversities-972
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /createuni_usa
+  script: createuni_usa.py
+- url: /.*
+  script: main.py
